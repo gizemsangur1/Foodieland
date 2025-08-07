@@ -4,8 +4,10 @@ import React from "react";
 import Food from "../../../public/food.svg";
 import Image from "next/image";
 import PlayCircleFilledIcon from '@mui/icons-material/PlayCircleFilled';
+import { useRouter } from "next/navigation";
 
 export default function FeaturedRecipe() {
+  const router=useRouter();
   return (
     <Box
       sx={{
@@ -126,7 +128,7 @@ export default function FeaturedRecipe() {
               </Box>
             </Grid>
             <Grid>
-              <Button sx={{backgroundColor:"black",borderRadius:"15px",padding:"20px 25px",color:"white"}}>
+              <Button sx={{backgroundColor:"black",borderRadius:"15px",padding:"20px 25px",color:"white"}} onClick={()=>router.push("#")}>
                 <Typography sx={{fontSize:"14px",fontWeight:600,marginRight:"15px"}}>View Recipes </Typography> <PlayCircleFilledIcon />
               </Button>
             </Grid>
