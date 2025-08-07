@@ -11,7 +11,7 @@ import Insta from "../../public/insta.svg";
 
 const navbar = [
   { route: "/", name: "Home" },
-  { route: "#", name: "Recipes" },
+  { route: "#recipes", name: "Recipes" },
   { route: "#", name: "Blog" },
   { route: "#", name: "Contact" },
   { route: "#", name: "About Us" },
