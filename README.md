@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽 Foodieland — Recipe Website
+## 📌 Overview
+Foodieland is a modern, responsive recipe website built with React, Next.js, and Material UI.
+This repository contains the implementation of the Home Page based on the provided Figma design.
+Additional pages such as recipe details, blog, contact, and about are planned and will be implemented in future updates.
 
-## Getting Started
+## Features (Implemented)
+Fully responsive Home Page matching the Figma design
 
-First, run the development server:
+Hero section with featured recipe
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Category listing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Recipe cards with images, metadata, and like/save icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+"Everyone can be a chef" promotional section
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Instagram post preview section
 
-## Learn More
+Recipe tips section
 
-To learn more about Next.js, take a look at the following resources:
+Newsletter subscription section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Footer with navigation and social links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Work in Progress
+The following pages/components are still under development:
 
-## Deploy on Vercel
+Recipe Details Page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Blog Page
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contact Page
+
+About Us Page
+
+Category-specific Recipe Listing
+
+Search functionality
+
+User authentication (optional future feature)
+
+## Tech Stack
+Next.js — React framework for server-side rendering and routing
+
+React — Component-based UI library
+
+Material UI (MUI) — UI component library for styling
+
+Next/Image — Optimized image rendering
+
+TypeScript — Type safety and better development experience
+
+## Notes
+This project is based on a Figma design and aims for pixel-perfect implementation.
+
+All placeholder images and texts will be replaced with real content later.
+
+More pages will be pushed in future updates.
+
