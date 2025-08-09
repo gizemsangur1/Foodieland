@@ -1,8 +1,7 @@
 import { MoreHoriz } from "@mui/icons-material";
 import { Grid, Typography } from "@mui/material";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
-
 import like from "../../../public/like.svg";
 import comment from "../../../public/comment.svg";
 import send from "../../../public/send.svg";
@@ -11,7 +10,7 @@ import pagination from "../../../public/pagination.svg";
 
 type Props = {
   text: string;
-  image: any;
+  image: StaticImageData;
 };
 
 export default function InstagramPost({

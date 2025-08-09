@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 import TimerIcon from "@mui/icons-material/Timer";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
@@ -8,8 +8,8 @@ type Props = {
   recipename: string;
   time: string;
   category: string;
-  image: any;
-  background:any;
+  image: StaticImageData;
+  background:string;
 };
 
 export default function RecipeCard({
