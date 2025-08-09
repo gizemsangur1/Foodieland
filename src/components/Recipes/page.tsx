@@ -84,6 +84,7 @@ export default function Recipes() {
                 time={item.time}
                 category={item.category}
                 image={item.image}
+                background="gradient"
               />
             </Grid>
           </React.Fragment>

@@ -9,6 +9,7 @@ type Props = {
   time: string;
   category: string;
   image: any;
+  background:any;
 };
 
 export default function RecipeCard({
@@ -16,12 +17,13 @@ export default function RecipeCard({
   time,
   category,
   image,
+  background,
 }: Props) {
   return (
     <Box
       sx={{
         borderRadius: "20px",
-        background: "linear-gradient(to bottom, rgba(255,255,255,1), #E7F9FD)",
+        background:background=="gradient"?"linear-gradient(to bottom, rgba(255,255,255,1), #E7F9FD)":"white",
         textAlign: "center",
         margin: "20px 40px",
 		display:"flex"
@@ -46,12 +48,12 @@ export default function RecipeCard({
           }}
         />
       </Box>
-      <Box sx={{ padding: "10px 30px", textAlign: "start", mt: 4 }}>
+      <Box sx={{ padding:background=="gradient"?"10px 20px" : "10px 0", textAlign: "start", mt: 2 }}>
         <Typography sx={{ fontSize: "18px", fontWeight: 600 }}>
           {recipename}
         </Typography>
 
-        <Box sx={{ display: "flex", alignItems: "center", gap: 2, margin:"30px 0" }}>
+        <Box sx={{ display: "flex", alignItems: "center", gap: 2, margin:"20px 0" }}>
           <Typography
             sx={{
               fontSize: "14px",

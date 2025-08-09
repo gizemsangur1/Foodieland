@@ -5,6 +5,7 @@ import Categories from "@/components/Categories/page";
 import Recipes from "@/components/Recipes/page";
 import LearnMore from "@/components/LearnMore/page";
 import CheckoutPage from "@/components/Checkout/page";
+import TryRecipes from "@/components/TryRecipes/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Recipes/>
       <LearnMore/>
       <CheckoutPage/>
+      <TryRecipes/>
     </div>
   );
 }
