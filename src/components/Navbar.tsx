@@ -50,7 +50,7 @@ export default function Navbar() {
           <Link
             href={item.route}
             key={index}
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none",scrollBehavior:"smooth" }}
           >
             <Typography sx={{ fontWeight: "medium", fontSize: "16px" }}>
               {item.name}
