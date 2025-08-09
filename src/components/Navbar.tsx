@@ -52,7 +52,7 @@ export default function Navbar() {
             key={index}
             style={{ textDecoration: "none",scrollBehavior:"smooth" }}
           >
-            <Typography sx={{ fontWeight: "medium", fontSize: "16px" }}>
+            <Typography sx={{ fontWeight: 600, fontSize: "16px" }}>
               {item.name}
             </Typography>
           </Link>
